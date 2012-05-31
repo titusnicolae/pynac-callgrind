@@ -1,2 +1,3 @@
 #!/bin/bash
-valgrind --tool=callgrind --instr-atstart=no sage bench.py
+rm callgrind*
+valgrind --tool=callgrind --instr-atstart=no --trace-children=yes sage bench.py

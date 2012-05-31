@@ -1,0 +1,5 @@
+HOW TO USE
+./run.sh
+
+WARNING!
+run.sh removes previous callgrind output
