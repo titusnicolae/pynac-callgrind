@@ -1,3 +1,6 @@
+INSTALL
+install valgrind
+
 HOW TO USE
 ./run.sh
 
